@@ -10,7 +10,7 @@ function CountDown() {
 
     let hours = Math.floor(duration / (1000 * 3600)) % 24;
 
-    let minutes = Math.floor(duration / 1000) % 60;
+    let minutes = Math.floor(duration / 1000 * 60) % 60;
 
     let seconds = Math.floor(duration / 60) % 60;
     
