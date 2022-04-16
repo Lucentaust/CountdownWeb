@@ -12,7 +12,7 @@ function CountDown() {
 
     let minutes = Math.floor(duration / 1000 * 60) % 60;
 
-    let seconds = Math.floor(duration / 60) % 60;
+    let seconds = Math.floor(duration / 1000) % 60;
     
     document.getElementById('days').innerHTML = days;
     document.getElementById('hours').innerHTML = hours;
